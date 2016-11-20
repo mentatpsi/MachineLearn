@@ -3,6 +3,7 @@ Helper Libraries for Machine Learning Applications
 
 arffhelper.py
 Examples:
+
 SQL - Set up using Flask: (Recommended - sqlite3 easy to get into)
 
 ```python
@@ -67,4 +68,3 @@ Manual - Set up using scripting:
 	arffdoc.export("test.arff")
 
 ```
-"""
