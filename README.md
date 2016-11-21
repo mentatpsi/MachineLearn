@@ -42,7 +42,7 @@ CSV - Set up using CSV File:
 	
 	column = 0
 	for attribute in attributes: # iterate upon all attributes and map to resulting row 
-		sqlA.addAttribute(attribute, column)
+		csvAttach.addAttribute(attribute, column)
 		column+=1
 	arffdoc = ArffDoc("test") # initialize with relation name
 	arffdoc.setAttacher(csvAttach) # connect the attacher to the ArffDoc instance
