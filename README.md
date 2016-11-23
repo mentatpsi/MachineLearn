@@ -53,7 +53,7 @@ CSV - Set up using CSV File:
 Manual - Set up using scripting:
 
 ```python
-a1 = Attribute("sepallength")
+	a1 = Attribute("sepallength")
 	a2 = Attribute("sepalwidth")
 	a3 = Attribute("petallength")
 	a4 = Attribute("petalwidth")
