@@ -9,7 +9,7 @@ ARFF file format is used by the machine learning and data mining software Weka. 
 
 arffhelper.py
 
-Examples:
+## Examples:
 
 SQL - Set up using Flask: (sqlite3 - easy to get into)
 
