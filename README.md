@@ -1,10 +1,15 @@
 # MachineLearn
 Helper Libraries for Machine Learning Applications
 
+For use with <a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka 3: Data Mining Software in Java</a>
+
+ARFF file format is used by the machine learning and data mining software Weka. This script was designed to make easier converts from data hosted on a database, csv, or a script to the arff file format.
+
 arffhelper.py
+
 Examples:
 
-SQL - Set up using Flask: (Recommended - sqlite3 easy to get into)
+SQL - Set up using Flask: (sqlite3 - easy to get into)
 
 ```python
 	app = Flask(__name__)
@@ -49,7 +54,6 @@ CSV - Set up using CSV File:
 	arffdoc.export("testcsv.arff")	# export the arff document
 ```
 
-
 Manual - Set up using scripting:
 
 ```python
@@ -75,6 +79,7 @@ Manual - Set up using scripting:
 	arffdoc.export("test.arff")
 
 ```
+
 
 
 
