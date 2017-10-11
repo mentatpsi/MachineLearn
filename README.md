@@ -3,6 +3,8 @@ Helper Libraries for Machine Learning Applications
 
 For use with <a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka 3: Data Mining Software in Java</a>
 
+Book: <a href="https://www.cs.waikato.ac.nz/ml/weka/book.html">Data Mining: Practical Machine Learning Tools and Techniques</a>
+
 ARFF file format is used by the machine learning and data mining software Weka. This script was designed to make easier converts from data hosted on a database, csv, or a script to the arff file format.
 
 arffhelper.py
